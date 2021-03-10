@@ -10,6 +10,7 @@ class Product extends Model
     public function brandInfo()
    {
    	return $this->belongsTo('App\Brand','brand');
+      
    }
 
    public function categoryInfo()
